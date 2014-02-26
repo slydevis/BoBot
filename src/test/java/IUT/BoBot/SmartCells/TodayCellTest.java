@@ -16,12 +16,12 @@ public class TodayCellTest {
 	
 	@Before
 	public void setUp() {
-		calendar.set(2013, 2, 8);
+		calendar.set(2013, 1, 8);
 	}
 	
 	@Test
 	public void testToday() {
-		assertEquals("Vendredi", cell.ask("Quel jour est-il?"));
+		assertEquals("Vendredi 8 Février", cell.ask("Quel jour est-il?"));
 	}
 	
 	@Test
