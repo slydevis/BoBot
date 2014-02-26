@@ -31,7 +31,9 @@ public class TodayCell implements SmartCell {
 			return null;
 		
 		int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
-		return weekDays[dayOfWeek - 1];
+        int getmouth = calendar.get(Calendar.MONTH);
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+		return weekDays[dayOfWeek - 1] + " " + day + " " + mouth[getmouth];
 	}
 	
 	private String[] weekDays = new String[] { 
@@ -39,6 +41,9 @@ public class TodayCell implements SmartCell {
 			"Jeudi", "Vendredi", "Samedi" 
 			};
 
-
-
+    private String[] mouth = new String[] {
+            "Janvier", "Février", "Mars", "Avril",
+            "Mai", "Juin", "Juillet", "Août", "Septembre",
+            "Octobre", "Novembre", "Décembre"
+    };
 }

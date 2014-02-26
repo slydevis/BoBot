@@ -12,4 +12,5 @@ public class AurevoirCell implements SmartCell {
         if(question.contains("au revoir")) return "au revoir";
         else return null;
     }
+    
 }

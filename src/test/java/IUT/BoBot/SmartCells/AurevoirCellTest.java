@@ -16,4 +16,5 @@ public class AurevoirCellTest {
     public void testNotAurevoir() throws Exception {
         assertEquals(null, cell.ask("A la prochaine"));
     }
+
 }
