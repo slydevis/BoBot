@@ -1,5 +1,5 @@
 # BoBot
 
-[![Build Status](https://travis-ci.org/IUTInfoAix/BoBot.png?branch=master)](https://travis-ci.org/IUTInfoAix/BoBot)
+[![Build Status](https://travis-ci.org/slydevis/BoBot.png?branch=master)](https://travis-ci.org/slydevis/BoBot)
 
 http://bit.ly/iut-4
